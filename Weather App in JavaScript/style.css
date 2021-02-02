@@ -1,4 +1,14 @@
+/*
+  Weather App with JavaScript
+  Created by Shavkat Toshpulatov | EldasDEV
+  Portfolio: https://eldasdev.netlify.app
+  GitHub: https://github.com/eldasdev
+  LICENSE: MIT Open Source Project LICENSE
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,800;0,900;1,500;1,600;1,800&display=swap');
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -106,4 +116,19 @@ body {
   font-size: 50px;
   font-weight: 400;
   letter-spacing: -2px;
+}
+
+.creator h3 {
+  color: #72ECE8;
+}
+
+.creator a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none !important;
+  color: #8F9BCB !important;
+  transition: all 0.35s ease;
+}
+
+.creator a:hover {
+  border-bottom: dotted;
 }
